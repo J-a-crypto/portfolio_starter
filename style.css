@@ -1,5 +1,82 @@
 /* CSS files add styling rules to your content */
 
+.NavigationBar {
+  background-color: #766153;
+  display: flex;
+  justify-content: space-around;
+}
+.box {
+  padding: 1px;
+  margin: 1px;
+  border-radius: 50px;
+}
+a {
+  color: #eff1ed;
+   font-family: "Open Sans Condensed", sans-serif;
+}
+body {
+  background-color: #bcbd8b; //#575b63
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+}
+
+.footer {
+  background-color: #766153;
+  color: #766153;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
 h1 {
-  color: green;
+  color: #373d20;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.welcome {
+  color: #717744;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  opacity: 0.8;
+  position: relative;
+  top: 120px;
+}
+.size {
+  width: 100px;
+}
+.Bio {
+  display: flex;
+}
+.text {
+  width: 60%;
+}
+.pic {
+  width: 40%; 
+}
+.one{
+  position:relative;
+  top:20px;
+}
+p{
+  font-family: "Open Sans Condensed", sans-serif;
+  margin:90px;
+}
+.old{
+  width:500px;
+}
+.projects{
+  display:flex;
+}
+.name{
+  width:30%;
+}
+.preview{
+  width: 40%;
+}
+.explaination{
+  width:30%;
+}
+.adjust{
+  width:200px;
 }
